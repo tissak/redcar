@@ -24,6 +24,7 @@ Version 0.12 (TBA)
  * Wildcards permitted in project search (Delisa Mason)
  * Installation entirely through Rubygems (Dan Lucraft)
  * Rad new icon (Delisa Mason)
+ * Tests rewritten to use SWTBot (allows for more accurate testing of events, e.g. Macros) (Dan Lucraft)
 
 Version 0.11 (23 March 2011)
 ============================
