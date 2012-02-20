@@ -1,4 +1,3 @@
-
 class RedcarGemspecHelper
   def self.remove_gitignored_files(filelist)
     gitignore_file = File.expand_path("../.gitignore", __FILE__)
@@ -18,7 +17,7 @@ class RedcarGemspecHelper
   end
 
   def self.gem_manifest
-    r = %w(CHANGES LICENSE Rakefile README.md Gemfile Rakefile redcar.gemspec) +
+    r = %w(CHANGES LICENSE Rakefile README.md Rakefile redcar.gemspec) +
                             Dir.glob("bin/redcar") +
                             Dir.glob("vendor/**/*") +
                             remove_gitignored_files(Dir.glob("lib/**/*")) +
